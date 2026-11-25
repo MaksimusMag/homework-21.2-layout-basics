@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <!-- Подключение Bootstrap 5 через CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<!-- Хедер -->
+<header class="bg-dark text-white py-3">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Мой Проект</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Основной контент (Боди) -->
+<main class="flex-grow-1 py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <h1 class="mb-4">Наши контакты</h1>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text"><strong>📍 Адрес:</strong> г. Москва, ул. Примерная, д. 1</p>
+                        <p class="card-text"><strong>📞 Телефон:</strong> +7 (999) 000-00-00</p>
+                        <p class="card-text"><strong>✉️ Email:</strong> info@example.com</p>
+                        <p class="card-text"><strong>🕒 Режим работы:</strong> Пн-Пт: 9:00 - 18:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Футер -->
+<footer class="bg-light py-3 mt-auto">
+    <div class="container text-center text-muted">
+        <small>&copy; 2026 Мой Проект. Все права защищены.</small>
+    </div>
+</footer>
+
+<!-- JS Bootstrap (для интерактивности навбара) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
